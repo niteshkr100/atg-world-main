@@ -1,0 +1,238 @@
+@media only screen and (width<= 1390px) {
+    .locationBox {
+      position: absolute;
+      display: none;
+      width: 300px;
+      height: 400px;
+      top: 50px;
+      right: 70px;
+    }
+    
+    .filter{
+     display: none;
+    }
+  }
+  @media (max-width: 1070px) {
+    .h01{
+      padding-top: 21.813rem;
+      padding-left: 13.563rem;
+  }
+  #p1{
+      padding-left: 13.563rem;
+  }
+    nav{
+      display: none;
+    }
+    .filter{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 40px ;
+    }
+
+    h6{
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .filterbtn{
+      background-color: rgba(211, 211, 211, 0.41);
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    .topjoin{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 40px ;
+      
+    }
+    
+    .joinbtn{
+      background-color:transparent;
+      padding: 6px 10px;
+      border: 1px solid white;
+      color: white;
+      border-radius: 5px;
+    }
+    .container{
+      display: none;
+    }
+    .threedotCont{
+        position: absolute;
+        right: 0rem;
+      }
+      #three1id{
+        margin-left: 0rem;
+    }
+    #three2id{
+        margin-left: 0rem;
+    }
+    #three3id{
+        margin-left: 0rem;
+    }
+    #fourdot {
+        margin-left: 0rem;
+    }
+    body {
+      width: 440px;
+      /* background-color: lightsalmon; */
+      width: 100vw;
+    }
+    #start {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .banner-container {
+      padding-top: 20px;
+      width: 100%;
+      margin: auto;
+      height: 450px;
+      margin-left: 0rem;
+      /* background-size: 100%; */
+      /* background-image: url("./img/ banner.webp"); */
+    }
+    .h01 {
+    
+      font-size: 28px;
+      margin-left: -200px;
+      padding-top: 294px;
+    }
+    #p1 {
+      font-size: 20px;
+      margin-left: -200px;
+    }
+    .hov {
+      font-size: 14px;
+      margin-top: -30px;
+      padding-right: 6px;
+      margin-left: 0px;
+    }
+    #stnav {
+      flex-direction: column;
+    }
+    #none {
+      display: none;
+    }
+    .smallbtn {
+      width: 65px;
+      height: 20px;
+      font-size: 8px;
+      padding: 0px;
+      margin-top: 50px;
+    }
+    #exit {
+      width: 65px;
+      height: 20px;
+      font-size: 8px;
+      padding: 0px;
+    }
+    .container1 {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 50px;
+      margin-left: 0.5rem;
+      /* margin-top: 56px; */
+      display: inline-block;
+    }
+    .blogImage1 {
+      height: 200px;
+      width: 100%;
+    }
+    .container2 {
+      margin-top: 21px;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #ddd;
+      /* overflow: hidden; */
+      border-radius: 6px;
+      margin-left: 0.5rem;
+      padding-left: 0px;
+      margin-top: -29px;
+    }
+    .blogImage {
+      height: 200px;
+      width: 100%;
+      border-radius: 6px 6px 0px 0px;
+    }
+    .card-body {
+      flex: 1 1 auto;
+      padding: 1rem 1rem;
+      width: 100%;
+    }
+    .container3 {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-left: 0.5rem;
+      margin-top: -2px;
+    }
+    
+    .card-body {
+      flex: 1 1 auto;
+      padding: 1rem 1rem;
+      width: 100%;
+    }
+    .card-title {
+      display: inline-block;
+      width: 100%;
+    }
+    #btn2 {
+      width: 100%;
+    }
+    .container4 {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-top: 20px;
+      margin-left: 0.5rem;
+    }
+    #btn3 {
+      width: 100%;
+    }
+    .bigbox {
+      position: relative;
+      width: 96%;
+      margin-top: -30px;
+      margin-left: 10px;
+    }
+    .locationBox {
+       display: none;
+    }
+    @media (max-width: 808px) {
+       
+        .eye{
+          
+          display: none;
+        }
+      }
+    @media (max-width: 768px) {
+      .container2{
+        margin-top: -37px;
+      }
+      .container3{
+        margin-top: -11px;
+      }
+      .container4{
+        margin-top: 18px;
+      }
+      .bigbox {
+        margin-left: 3px;
+        margin-top: -42px;
+      }
+      .eye{
+      
+        display: none;
+      }
+      
+    }
+    
+    @media only screen and (width<= 440px) {
+      
+       
+    }
+  }
